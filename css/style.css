@@ -41,7 +41,7 @@ body{
 }
 
 .header{
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,0.6)), url(./images/Netflix-home.jpg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,0.6)), url(../images/Netflix-home.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -230,4 +230,10 @@ nav{
 .newsletter h4{
     font-size: 1.8rem;
     font-weight: 400;
+}
+
+/* FOOTER SECTION */
+footer{
+    width: 100%;
+    padding: 3rem 0;
 }

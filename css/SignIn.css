@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+    width: 1.3rem;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: red;
+    border-radius: 1rem;
+}
+html::-webkit-scrollbar-track{
+    background: white;
+}
+
+
+body{
+    background: #000;
+    color: red;
+}
+
+.container{
+    width: 84%;
+    margin: 0 auto;
+}
+
+.header{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,0.6)), url(../images/Netflix-home.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+nav{
+    padding: 2rem 0;
+    width: 100vw;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+
+
+form{
+    margin: 0 auto;
+    margin-top: 2rem;
+    background: black;
+    background: rgba(0,0,0,.67);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 4rem;
+    width: 40rem;
+}
+
+form h2{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: 3rem;
+}
+
+.input input{
+    padding: 1rem 1.2rem;
+    background:  rgb(44, 43, 43);
+    margin-top: .8rem;
+    border-radius: .8rem;
+    color: white;
+}
+.input input::placeholder{
+    color: rgba(128, 128, 128, 0.759);
+}
+
+.input .btn{
+    margin-top: 3rem;
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+
+.next{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    color:  rgba(128, 128, 128, 0.959);
+}
+.next span{
+    font-size: 1.3rem;
+}
+.check{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.down{
+    margin-block: 6rem;
+    color: rgba(128, 128, 128, 0.759);
+}
+
+.down p{
+    font-size: 1.5rem;
+}
+.down p a{
+    color: #fff;
+}
+
+.down h4{
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-top: 2rem;
+
+}
