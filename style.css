@@ -51,7 +51,6 @@ body{
 
 nav{
     padding: 2rem 0;
-    /* background: white; */
     width: 100vw;
 }
 .navbar{
@@ -74,12 +73,10 @@ nav{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* margin-top: 7rem; */
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    /* background: red; */
     text-align: center;
     padding: 1rem;
 }
@@ -99,7 +96,6 @@ nav{
 
 .input{
     margin-top: 1rem;
-    /* background: white; */
     width: 90%;
     display: flex;
     align-items: center;
@@ -128,7 +124,6 @@ nav{
 .main1{
     padding: 3rem 0;
     width: 100%;
-    /* background: blue; */
     color: white;
     border-bottom: 1rem solid rgb(44, 43, 43);
 }
@@ -178,13 +173,11 @@ nav{
 }
 
 .faq_box{
-    /* border: .1rem solid red; */
     background: #303030;
     margin-top: 2rem;
     padding-bottom: 1rem;
     cursor: pointer;
     padding: 1rem;
-   /* max-width: 60rem; */
 }
 .faq_box:hover{
     background: rgba(128, 128, 128, 0.903);
@@ -200,7 +193,6 @@ nav{
     font-weight: 500;
 }
 .question svg{
-    /* font-size: 4rem; */
     width: 3rem;
     height: 3rem;
     display: block;
