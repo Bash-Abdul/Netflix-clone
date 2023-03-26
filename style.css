@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+    width: 1.3rem;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: red;
+    border-radius: 1rem;
+}
+html::-webkit-scrollbar-track{
+    background: white;
+}
+
+
+body{
+    background: #000;
+    color: red;
+}
+
+.container{
+    width: 84%;
+    margin: 0 auto;
+}
+
+.header{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,0.6)), url(./images/Netflix-home.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    border-bottom: 1rem solid rgb(44, 43, 43);
+}
+
+nav{
+    padding: 2rem 0;
+    /* background: white; */
+    width: 100vw;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn{
+    background: red;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+
+.header_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-top: 7rem; */
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* background: red; */
+    text-align: center;
+    padding: 1rem;
+}
+
+.header_main h2{
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+
+.header_main p{
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+.header_main span{
+    font-size: 1.7rem;
+}
+
+.input{
+    margin-top: 1rem;
+    /* background: white; */
+    width: 90%;
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    gap: 1rem;
+}
+.box{
+    flex: 1 1 70%;
+    width: 100%;
+    height: 100%;
+    padding: 0 1rem;
+    border: .1rem solid rgba(128, 128, 128, 0.342);
+    background: rgb(44, 43, 43);
+    color: white;
+}
+.box::placeholder{
+    color: rgba(128, 128, 128, 0.759);
+}
+.input_btn{
+    flex: 1 1 30%;
+    width: 100%;
+    height: 100%;
+}
+
+/*  MAIN1 SECTION */
+.main1{
+    padding: 3rem 0;
+    width: 100%;
+    /* background: blue; */
+    color: white;
+    border-bottom: 1rem solid rgb(44, 43, 43);
+}
+
+.main1_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    /* flex-wrap: wrap; */
+}
+.main1_content{
+    flex: 1 1 50%;
+}
+.main1_image{
+    flex: 1 1 50%;
+}
+.main1_content h3{
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+.main1_content p{
+    font-size: 2.1rem;
+    line-height: 1.5;
+    padding-top: 1rem;
+}
+
+/* FAQs SECTION */
+.faqs{
+    padding: 3rem 0;
+    width: 100%;
+    color: #fff;
+    border-bottom: 1rem solid rgb(44, 43, 43);
+}
+
+.faq_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.faq_container h2{
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.faq_box{
+    /* border: .1rem solid red; */
+    background: #303030;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    padding: 1rem;
+   /* max-width: 60rem; */
+}
+.faq_box:hover{
+    background: rgba(128, 128, 128, 0.903);
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1rem;
+}
+.question h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.question svg{
+    /* font-size: 4rem; */
+    width: 3rem;
+    height: 3rem;
+    display: block;
+}
+
+.answer{
+    padding-inline: 1rem;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.answer p{
+    padding-top: 1rem;
+    line-height: 1.5;
+    font-size: 2rem;
+}
+
+.faq_box.active .answer{
+    max-height: 100%;
+}
+
+.faq_box.active svg{
+    transform: rotate(180deg);
+}
+
+.newsletter{
+    margin: 1rem 0;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter h4{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
