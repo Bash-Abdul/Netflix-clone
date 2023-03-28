@@ -320,6 +320,7 @@ option{
 .main1_content p{
     font-size: 1.8rem;
 }
+}
 
 @media (max-width: 900px) {
     html{
@@ -397,8 +398,4 @@ option{
         gap: 3rem;
         margin-top: 5rem;
     }
-    
-}
-
-@media (max-width:500px) {
 }
