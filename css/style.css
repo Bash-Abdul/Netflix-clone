@@ -359,14 +359,22 @@ option{
 
 @media (max-width: 768px){
     .header_main h2{
-        font-size: 3.3rem;
+        font-size: 3rem;
     }
     
+    .header_main{
+        width: 33rem;
+    }
+
+    .input{
+        flex-direction: column;
+    }
+
     .header_main p{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
     .header_main span{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     .main1_container{
